@@ -1,0 +1,81 @@
+html {
+    overflow: hidden;
+  }
+
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(233, 228, 228);
+    text-shadow: 1px 1px 1px rgb(241, 0, 0);
+    font-family: 'Lobster', cursive;
+    background-color: #9B4D4E;
+  }
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #F5EFE8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #9B4D4E;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 0;
+  }
+  
+  
+  .screen {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #6B5B5C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #F5EFE8;
+    text-shadow: 1px 1px #9B4D4E;
+  }
+  
+  input[type="text"] {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: #F5EFE8;
+    text-align: right;
+    width: 100%;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background-color: #9B4D4E;
+    color: #F5EFE8;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #6B5B5C;
+  }
+  
+  
